@@ -10,7 +10,7 @@ from tqdm import tqdm
 
 from data.dataset import IllustDataset
 from models import Generator, Discriminator, Vgg19
-from utils.io import LossCalc
+from utils import LossCalc
 from torchvision.utils import save_image
 
 

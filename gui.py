@@ -17,7 +17,7 @@ import webbrowser
 import sv_ttk
 
 from models import Generator
-from utils.io import tensor_to_numpy
+from utils import tensor_to_numpy
 from data.dataset import scale_resize
 
 
