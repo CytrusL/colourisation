@@ -18,7 +18,7 @@ import sv_ttk
 
 from models import Generator
 from utils.io import tensor_to_numpy
-from data import scale_resize
+from data.dataset import scale_resize
 
 
 def max_scale_resize(image, max_size):

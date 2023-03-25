@@ -8,7 +8,7 @@ from torch.utils.data import DataLoader
 from torch.cuda.amp import autocast, GradScaler
 from tqdm import tqdm
 
-from data import IllustDataset
+from data.dataset import IllustDataset
 from models import Generator, Discriminator, Vgg19
 from utils.io import LossCalc
 from torchvision.utils import save_image
