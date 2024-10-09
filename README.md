@@ -1,4 +1,4 @@
 ### User-Guided Line Art Colourisation with Conditional GAN
-Check the [Research Paper]
+A Deep Learning model to colorize black-and-white line drawings, optionally guided by user-provided color hints. The system generates realistic colorized images based on input drawings and hints. Check the [Report].
 
-[Research Paper]: https://github.com/CytrusL/colourisation/blob/main/Report.pdf
+[Report]: https://github.com/CytrusL/colourisation/blob/main/Report.pdf
